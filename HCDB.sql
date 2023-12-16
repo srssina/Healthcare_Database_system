@@ -1,18 +1,33 @@
 CREATE DATABASE Hospital;
 
+-- patient table
 Create table patient(
-  MRId is Not null,
+  PatientId is Not null,
   Name varchar(128),
   Gender varchar(16),
   Age smallint(128),
   RecordID
-  primary key (MRId)
-  foreign key (RecordID) REFERENCES record(RecordID)
+  primary key (patientID)
+  foreign key (MRID) REFERENCES medicalrecord(MRID)
 );
 
-create table record(
-  recordID is not null,
-
-
-  primary key (RecordID)
+--medical record of each patient
+create table medicalrecord(
+  MRID is not null,
+  date datetime,
+  diagnosis,
+  drugs,
+  reference varchar(128) 
+  primary key (MRID)
   );
+
+--doctors
+create table doctor(
+  doctorid int is not null,
+  Name varchar(128),
+  Gender varchar(16),
+  Age smallint(128),
+  specialist varchar(128)
+  primary key(doctorid)
+  );
+
