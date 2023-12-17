@@ -31,3 +31,12 @@ create table doctor(
   primary key(doctorid)
   );
 
+--registeration
+create table registeration(
+  MRID,
+  regdate datetime,
+  poly,
+  assurance,
+  foreign key (MRID) REFERENCES medicalrecord(MRID)
+  );
+
