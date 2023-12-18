@@ -6,7 +6,7 @@ Create table patient(
   Name varchar(128),
   Gender varchar(16),
   Age smallint,
-  RecordID int,
+  MRID int,
   primary key (patientID)
   foreign key (MRID) REFERENCES medicalrecord(MRID)
 );
