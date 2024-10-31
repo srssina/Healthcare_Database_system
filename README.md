@@ -25,7 +25,9 @@ Create table patient(
 );
 
 ```
-<h2>Also i decided to use this project as part as my <u>principles of sowftware design</u> course at srbiau:</h2>
+<h2>Also i decided to use this project as part as my <u>principles of sowftware design</u> course at srbiau;</h2>
+
+### first we start our project as designing our needs and requiremets:
 
 ### 1. User Roles and Permissions
 * Admin: Manages all users, assigns roles, handles system settings.
@@ -46,3 +48,4 @@ Create table patient(
 * Scalability: The system should handle a growing number of users and data.
 * Usability: The interface should be intuitive for all user roles.
 * Reliability: System uptime should be above 99.9%.
+
