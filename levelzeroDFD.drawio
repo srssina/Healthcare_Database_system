@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Z9I0C1FYPBCS9U3PzowD" name="Page-1">
-        <mxGraphModel dx="1387" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="653" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,78 +8,60 @@
                     <mxGeometry x="0.0129" y="-1" relative="1" as="geometry">
                         <Array as="points"/>
                         <mxPoint as="offset"/>
-                        <mxPoint x="540" y="265" as="sourcePoint"/>
+                        <mxPoint x="620" y="355" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="record management" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=96.25;exitDy=170;exitPerimeter=0;entryX=0.561;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="10" edge="1" source="25">
-                    <mxGeometry x="0.2879" y="17" relative="1" as="geometry">
-                        <Array as="points"/>
-                        <mxPoint x="480" y="400" as="sourcePoint"/>
-                        <mxPoint x="490" y="610" as="targetPoint"/>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="21" value="medical examination" style="edgeStyle=none;html=1;exitX=0.042;exitY=0.679;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=182.5;entryDy=90;entryPerimeter=0;exitPerimeter=0;" parent="1" source="7" target="25" edge="1">
+                <mxCell id="21" value="medical examination" style="edgeStyle=none;html=1;" parent="1" edge="1">
                     <mxGeometry x="0.0175" y="2" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="700" y="320"/>
-                        </Array>
+                        <Array as="points"/>
                         <mxPoint as="offset"/>
-                        <mxPoint x="570" y="280" as="targetPoint"/>
+                        <mxPoint x="620" y="400" as="targetPoint"/>
+                        <mxPoint x="940" y="400" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="7" value="Doctor" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;rounded=0;strokeColor=default;fillColor=default;gradientColor=none;rotation=-1;" parent="1" vertex="1">
-                    <mxGeometry x="860" y="249.83" width="200" height="100" as="geometry"/>
+                    <mxGeometry x="940" y="339.83000000000004" width="200" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="bills" style="edgeStyle=none;html=1;exitX=0.622;exitY=0.004;exitDx=0;exitDy=0;entryX=0.544;entryY=1.027;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="25" target="8" edge="1">
+                <mxCell id="22" value="estimated Services" style="edgeStyle=none;html=1;entryX=0.479;entryY=1.035;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=86.25;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="25" target="8" edge="1">
                     <mxGeometry x="0.0207" y="-1" relative="1" as="geometry">
-                        <mxPoint x="470" y="230" as="targetPoint"/>
+                        <mxPoint x="550" y="320" as="targetPoint"/>
                         <Array as="points"/>
                         <mxPoint as="offset"/>
+                        <mxPoint x="554" y="321" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="8" value="Accounting" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;rounded=0;strokeColor=default;fillColor=default;gradientColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="370" width="200" height="90" as="geometry"/>
+                    <mxGeometry x="431.25" y="100" width="200" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;forum completion&lt;/span&gt;" style="edgeStyle=none;html=1;exitX=0.997;exitY=0.465;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=50;entryPerimeter=0;exitPerimeter=0;" parent="1" source="9" target="25" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="280" y="280"/>
+                            <mxPoint x="360" y="370"/>
                         </Array>
-                        <mxPoint x="370" y="280" as="targetPoint"/>
+                        <mxPoint x="450" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="payment" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9" target="8" edge="1">
-                    <mxGeometry x="-0.1013" y="-2" relative="1" as="geometry">
+                <mxCell id="23" value="Estimated bills" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry x="-0.0927" y="1" relative="1" as="geometry">
                         <Array as="points"/>
                         <mxPoint as="offset"/>
-                        <mxPoint x="400" y="290" as="targetPoint"/>
-                        <mxPoint x="90" y="220" as="sourcePoint"/>
+                        <mxPoint x="480" y="380" as="targetPoint"/>
+                        <mxPoint x="430" y="160" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="9" value="Patient" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;rounded=0;strokeColor=default;fillColor=default;gradientColor=none;" parent="1" vertex="1">
-                    <mxGeometry y="230" width="180" height="110" as="geometry"/>
+                    <mxGeometry x="40" y="320" width="180" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="patient submission" style="edgeStyle=none;html=1;exitX=0.328;exitY=0.049;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=53.125;entryDy=170;entryPerimeter=0;exitPerimeter=0;" parent="1" source="10" edge="1" target="25">
-                    <mxGeometry x="0.27" y="17" relative="1" as="geometry">
-                        <Array as="points"/>
-                        <mxPoint x="470" y="400" as="targetPoint"/>
-                        <mxPoint x="1" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="9">
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=80;exitPerimeter=0;entryX=0.963;entryY=0.711;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="25" target="9">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="required forums" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="29">
-                    <mxGeometry x="0.0689" y="2" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
+                <mxCell id="31" value="required forums" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="30">
+                    <mxGeometry x="0.4076" y="-1" relative="1" as="geometry">
+                        <mxPoint x="42" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="Receptionist" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;rounded=0;strokeColor=default;fillColor=default;gradientColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="420" y="630" width="170" height="100" as="geometry"/>
-                </mxCell>
                 <mxCell id="25" value="&lt;br&gt;Healthcare system" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity" parent="1" vertex="1">
-                    <mxGeometry x="360" y="230" width="182.5" height="170" as="geometry"/>
+                    <mxGeometry x="440" y="320" width="182.5" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="0" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" parent="25" vertex="1">
                     <mxGeometry width="30" height="30" relative="1" as="geometry">
