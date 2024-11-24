@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="4LLV1n6aGSC9oaOVMS1J" name="Page-1">
-        <mxGraphModel dx="549" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1166" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="8" value="forum completion" style="edgeStyle=none;html=1;exitX=0.981;exitY=0.374;exitDx=0;exitDy=0;entryX=0;entryY=0.391;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontSize=14;exitPerimeter=0;" parent="1" source="2" target="6" edge="1">
-                    <mxGeometry x="0.3231" relative="1" as="geometry">
+                <mxCell id="8" value="Given information" style="edgeStyle=none;html=1;exitX=0.981;exitY=0.374;exitDx=0;exitDy=0;entryX=0;entryY=0.391;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontSize=14;exitPerimeter=0;" parent="1" source="2" target="6" edge="1">
+                    <mxGeometry x="0.038" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
@@ -44,15 +44,15 @@
                         <mxPoint y="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="50" style="edgeStyle=none;html=1;entryX=0.999;entryY=0.648;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.026;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6" target="2">
+                <mxCell id="50" style="edgeStyle=none;html=1;entryX=0.999;entryY=0.648;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.026;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6" target="2" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="640" y="550" as="sourcePoint"/>
                         <mxPoint x="380" y="560" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="52" value="required forums" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50">
+                <mxCell id="52" value="Appointment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="50" vertex="1" connectable="0">
                     <mxGeometry x="0.3041" y="2" relative="1" as="geometry">
-                        <mxPoint x="107" as="offset"/>
+                        <mxPoint x="30" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="6" value="&amp;nbsp;AI Receptionist" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity" parent="1" vertex="1">
