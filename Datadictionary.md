@@ -13,7 +13,7 @@ Recognised Medical History = [{MedicalHistory} | if Valid=True]
 All Records = MedicalHistory + MedicalRecords + AllergyInformation + BloodType
 
 EMR = PatientName + PatientNationalCode + SubmissionRecord + MedicalHistory + MedicalRecords +
-AllergyInformation + BloodType + LabTestsResults + Diagnosis + ProgressNotes + VitalSigns + AssignedDoctors
+AllergyInformation + BloodType + LabTestsResults + Diagnosis + ProgressNotes + VitalSigns + AssignedDoctors + Drugs
 
 Estimated Appointment = {PatientName} + Descrpited Predicted Service + AppointmentCruciality
 
