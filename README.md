@@ -49,3 +49,24 @@ Create table patient(
 * Usability: The interface should be intuitive for all user roles.
 * Reliability: System uptime should be above 99.9%.
 
+### as it follows, how can we introduce Ai handeling registeration of healthcare (),this a imaginary system totally based on ai,and totally depended on a patient's data
+
+### level zero DFD
+![image](levelzeroDFD.png)
+
+### level one DFD
+![image](leveloneDFD.png)
+
+### level two DFD
+![image](leveltwoDFD.png)
+
+### minimal new ER
+
+![image](minimalnewER.png)
+
+### event moduling
+
+![image](SD.png)
+
+
+
