@@ -1,0 +1,30 @@
+<mxfile host="65bd71144e">
+    <diagram id="0Cs2miahlLIRlwhuHFDR" name="Page-1">
+        <mxGraphModel dx="816" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="Data flow" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="200" as="sourcePoint"/>
+                        <mxPoint x="480" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="process" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+                    <mxGeometry x="380" y="230" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Id" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" vertex="1" parent="7">
+                    <mxGeometry width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="15" y="15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Data storage" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+                    <mxGeometry x="250" y="230" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="External&amp;nbsp;&lt;br&gt;Entity" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="280" width="100" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
