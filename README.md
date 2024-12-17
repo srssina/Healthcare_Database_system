@@ -1,15 +1,13 @@
-# Healthcare_Database_system
-## This project was part of my final project for Database subject at srbiau,
-### decided to deploy the ER diagram of the following paper to sql code.
-
-
+# Healthcare_System
+## This project was part of my two final class projects for at srbiau:Database And Principles of Sofware Design,
+### first for the Database,I decided to deploy the ER diagram of the following paper to sql code.
 
 <a href="https://www.researchgate.net/publication/324182359_Article_ID_IJCIET_09_01_090_Cite_this_Article_Ahmad_Muhsin_Djawoto_Priyo_Susilo_and_Muafi_Hospital_Performance_Improvement_Through_The_Hospital_Information_System_Design" target="_blank">Article ID: IJCIET_09_01_090 Cite this Article: Ahmad Muhsin, Djawoto, Priyo Susilo and Muafi, Hospital Performance Improvement Through The Hospital Information System Design</a>
 ![image](https://github.com/srssina/Healthcare_Database_system/assets/95973648/11a78666-9b73-49c4-b6c5-96ce887c12b3)
 
 
 # Link to SQL Code
-You can view the full SQL code [here]((https://github.com/srssina/Healthcare_Database_system/blob/main/HCDB.sql)).
+You can view the full SQL code [here]((HCDB.sql)).
 
 ```sql
 -- Sample SQL code shown below
@@ -49,7 +47,7 @@ Create table patient(
 * Usability: The interface should be intuitive for all user roles.
 * Reliability: System uptime should be above 99.9%.
 
-### as it follows, how can we introduce Ai handeling registeration of healthcare (),this a imaginary system totally based on ai,and totally depended on a patient's data
+### as it follows, how can we introduce Ai handeling registeration of healthcare system,this a imaginary system totally based on ai,and totally depended on a patient's data,you can [access my article on medium](https://medium.com/@SinaRahimian/healthcare-registration-in-the-age-of-ai-a-data-flow-overview-938eaa0a134e) for full Description on How Ai can make a change in registeration system. 
 
 ### level zero DFD
 ![image](levelzeroDFD.png)
@@ -67,6 +65,8 @@ Create table patient(
 ### event moduling
 
 ![image](SD.png)
+
+### for the better understanding of each process in the Diagram there is a [data dictionary](Datadictionary.md),in which process broke down into combination of data.
 
 
 
